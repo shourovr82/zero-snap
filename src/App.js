@@ -1,17 +1,17 @@
 
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Common/Navbar';
+import router from './router'
+
 
 function App() {
-  return (
 
-    <div className="App">
-      <Navbar></Navbar>
-      <br />
-      <br />
-      <br />
-      <h1>Hello Redux</h1>
-    </div>
+  return (
+    <RouterProvider router={router}>
+
+    </RouterProvider>
+
+
   );
 }
 
