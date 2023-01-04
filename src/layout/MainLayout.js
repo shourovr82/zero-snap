@@ -41,7 +41,7 @@ const MainLayout = () => {
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Products</a></li>
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">new</a></li>
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Pricing</a></li>
-                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">all</a></li>
+                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-700">all</a></li>
                   <li className="py-3 "><a href="/" className="list-none border-b-2 hover:text-indigo-600">cart</a></li>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const MainLayout = () => {
 
                 <a href="/" className="uppercase inline-block mt-8 text-sm bg-white py-2 px-4 rounded font-semibold hover:bg-indigo-100">get start</a> */}
 
-                {/* <Outlet></Outlet> */}
+                <Outlet></Outlet>
 
               </div>
 
