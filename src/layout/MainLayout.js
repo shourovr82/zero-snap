@@ -39,16 +39,16 @@ const MainLayout = () => {
                 <h1 className="text-center text-xl my-4  bg-white py-2 rounded-md border-b-2 cursor-pointer  text-gray-600">Service</h1>
                 <div className="bg-white rounded-md list-none  text-center ">
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Products</a></li>
-                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Models</a></li>
+                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">new</a></li>
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Pricing</a></li>
-                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Hire</a></li>
-                  <li className="py-3 "><a href="/" className="list-none border-b-2 hover:text-indigo-600">Business</a></li>
+                  <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">all</a></li>
+                  <li className="py-3 "><a href="/" className="list-none border-b-2 hover:text-indigo-600">cart</a></li>
                 </div>
               </div>
             </div>
 
 
-            <div className="col-span-4 bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
+            <div className="col-span-4 h-[80vh] bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
               <div className="ml-20 w-80">
                 {/* <h2 className="text-white text-4xl">Adsla</h2>
                 <p className="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iure repellendus possimus, architecto quae quam consectetur nulla facilis dolorum cum illo temporibus at magni sequi non veniam dicta, odio vero?</p>

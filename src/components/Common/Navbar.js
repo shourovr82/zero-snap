@@ -40,11 +40,11 @@ const Navbar = () => {
               <div className="flex items-center">
 
                 <ul className="sm:flex space-x-4 hidden items-center">
-                  <li><a href="/" className="text-gray-700 hover:text-indigo-600 text-md ">Home</a></li>
-                  <li><a href="/" className="text-gray-700 hover:text-indigo-600 text-md ">About</a></li>
-                  <li><a href="/" className="text-gray-700 hover:text-indigo-600 text-md ">Services</a></li>
-                  <li><a href="/" className="text-gray-700 hover:text-indigo-600 text-md ">Products</a></li>
-                  <li><a href="/" className="text-gray-700 hover:text-indigo-600 text-md ">Contact</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Home</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>About</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Services</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Products</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Contact</a></li>
                 </ul>
 
                 <div className="md:flex items-center hidden space-x-4 ml-8 lg:ml-12">
