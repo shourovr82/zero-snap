@@ -14,7 +14,6 @@ const MainLayout = () => {
     }
   }
   window.addEventListener('scroll', addspace);
-  console.log(topto);
   return (
     <div>
       <Navbar></Navbar>
