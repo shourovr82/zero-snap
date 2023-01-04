@@ -8,7 +8,7 @@ const ProductComponent = () => {
     return (
       <div className=''>
         <div className=''>
-          <div className=''>
+          <div className='bg-red-900'>
             <div className='image'>
               <img src={image} alt={title} />
             </div>
