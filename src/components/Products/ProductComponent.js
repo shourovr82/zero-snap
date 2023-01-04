@@ -13,7 +13,7 @@ const ProductComponent = () => {
               <img src={image} alt={title} />
             </div>
             <div className=''>
-              <div className=''>{title}</div>
+              <div className=' text-2xl'>{title}</div>
               <div className=''>$ {price}</div>
               <div className=''>{category}</div>
             </div>
