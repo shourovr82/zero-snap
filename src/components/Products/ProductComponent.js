@@ -7,7 +7,7 @@ const ProductComponent = () => {
     const { id, title, image, price, category } = product;
     return (
       <div className=''>
-        {/* <div className=''>
+        <div className=''>
           <div className=''>
             <div className='image'>
               <img src={image} alt={title} />
@@ -18,7 +18,7 @@ const ProductComponent = () => {
               <div className=''>{category}</div>
             </div>
           </div>
-        </div> */}
+        </div>
 
       </div>
     );
