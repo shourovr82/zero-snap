@@ -35,7 +35,7 @@ const MainLayout = () => {
                   </svg></span>
                 </div>
               </div>
-              <div className="bg-white  rounded-md sticky">
+              <div className="bg-slate-200  rounded-md sticky">
                 <h1 className="text-center text-xl my-4  bg-white py-2 rounded-md border-b-2 cursor-pointer  text-gray-600">Service</h1>
                 <div className="bg-white rounded-md list-none  text-center ">
                   <li className="py-3 border-b-2"><a href="/" className="list-none  hover:text-indigo-600">Products</a></li>
