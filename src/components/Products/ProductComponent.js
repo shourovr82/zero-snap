@@ -15,7 +15,7 @@ const ProductComponent = () => {
             <div className=''>
               <div className=' text-2xl'>{title}</div>
               <div className='text-yellow-400'>$ {price}</div>
-              <div className='text-green-900'>{category}</div>
+              <div className='text-green-600'>{category}</div>
             </div>
           </div>
         </div>
