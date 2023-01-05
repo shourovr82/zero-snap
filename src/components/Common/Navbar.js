@@ -49,7 +49,7 @@ const Navbar = () => {
 
                 <div className="md:flex items-center hidden space-x-4 ml-8 lg:ml-12">
                   <h1 className="text-text-gray-600  py-2 hover:cursor-pointer hover:text-indigo-600">LOGIN</h1>
-                  <h1 className="text-text-gray-600  py-2 hover:cursor-pointer px-4 rounded text-white bg-gradient-to-tr from-indigo-600 to-green-600 hover:shadow-lg">SIGNUP</h1>
+                  <h1 className="text-text-gray-600  py-2 hover:cursor-pointer px-4 rounded text-white bg-gradient-to-tr from-indigo-600 to-green-600 hover:shadow-lg">REGISTER</h1>
                 </div>
               </div>
             </div>
