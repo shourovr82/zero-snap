@@ -42,7 +42,7 @@ const Navbar = () => {
                 <ul className="sm:flex space-x-4 hidden items-center">
                   <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Home</a></li>
                   <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>About</a></li>
-                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Services</a></li>
+                  <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>All Products</a></li>
                   <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Products</a></li>
                   <li><a href="/" className={`${backgroundnav ? 'text-white' : 'text-gray-700'}  hover:text-indigo-600 text-md`}>Contact</a></li>
                 </ul>
