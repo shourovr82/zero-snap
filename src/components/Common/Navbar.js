@@ -20,7 +20,7 @@ const Navbar = () => {
     // < !--Header -- >
     <>
 
-      <header className={`${!backgroundnav ? 'bg-white' : 'backdrop-blur-2xl fixed w-full'} w-full z-10`}>
+      <header className={`${!backgroundnav ? 'bg-slate-100' : 'backdrop-blur-2xl fixed w-full'} w-full z-10`}>
         {/* <!-- navbar and menu --> */}
         <nav className="shadow">
 
