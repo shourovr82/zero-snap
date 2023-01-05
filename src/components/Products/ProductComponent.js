@@ -13,6 +13,7 @@ const ProductComponent = () => {
               <img src={image} alt={title} />
             </div>
             <div className=''>
+              <div>{id}</div>
               <div className=' text-2xl'>{title}</div>
               <div className='text-yellow-400'>$ {price}</div>
               <div className='text-green-600'>{category}</div>
