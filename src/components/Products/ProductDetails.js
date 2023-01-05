@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProductDetails = () => {
   return (
@@ -7,6 +8,8 @@ const ProductDetails = () => {
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptatum perspiciatis sed odit dolor harum cum debitis corporis, fuga enim recusandae deleniti ducimus aut in aliquam fugiat voluptatibus quae totam.</p>
       <div>
         <p className='text-3xl'>Product Details</p>
+        <img src="" alt="" />
+        <Link to='/' className='text-2xl' ></Link>
       </div>
     </div>
   );
