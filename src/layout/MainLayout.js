@@ -47,8 +47,8 @@ const MainLayout = () => {
             </div>
 
 
-            <div className="col-span-4 h-[80vh] bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
-              <div className="ml-20 w-80">
+            <div className="col-span-4 bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
+              <div className="p-5">
                 {/* <h2 className="text-white text-4xl">Adsla</h2>
                 <p className="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iure repellendus possimus, architecto quae quam consectetur nulla facilis dolorum cum illo temporibus at magni sequi non veniam dicta, odio vero?</p>
 

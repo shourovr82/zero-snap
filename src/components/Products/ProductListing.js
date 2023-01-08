@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import ProductComponent from './ProductComponent';
 import { setProducts } from '../../redux/actions/productsActions';
 
@@ -16,10 +16,12 @@ const ProductListing = () => {
     fetchProducts();
   }, [])
 
-  return (
-    <div>
-      <ProductComponent></ProductComponent>
+  const products = useSelector(state => state.allProducts.products)
 
+
+  return (
+    <div className='grid grid-cols-3 gap-4'>
+      {products.map(product => <ProductComponent product={product} key={product.id} />)}
     </div>
   );
 };
