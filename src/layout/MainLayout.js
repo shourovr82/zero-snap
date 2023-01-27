@@ -53,7 +53,7 @@ const MainLayout = () => {
               <div className="w-full p-3">
                 <h2 className="text-white text-4xl">Adsla</h2>
                 <p className="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iure repellendus possimus, architecto quae quam consectetur nulla facilis dolorum cum illo temporibus at magni sequi non veniam dicta, odio vero?</p>
-
+                <button className='btn border p-2'>Submit here</button>
                 <a href="/" className="uppercase inline-block mt-8 text-sm bg-white py-2 px-4 rounded font-semibold hover:bg-indigo-100">get start</a>
 
                 <Outlet></Outlet>
