@@ -17,9 +17,9 @@ const ProductComponent = ({ product }) => {
             <h2>{title}</h2>
           </div>
           <div className='text-yellow-300 '>
-            <p>$ {price}</p>
+            <p className='text-xl font-bold'>$ {price}</p>
           </div>
-          <div className=''>
+          <div className='border p-1'>
             <p className='text-white'>{category}</p>
           </div>
         </div>
